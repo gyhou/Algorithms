@@ -28,7 +28,7 @@ def bottom_up_cookie(n):
     return cur
 
 
-def eating_cookies(n):
+def eating_cookies(n, cache=None):
     cache = {}
 
     def inner(n):
